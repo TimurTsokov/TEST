@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #484E55;
+  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: #c74451;
+  text-decoration: none;
+  border-bottom: 1px solid #c74451;
+  transition: all .5s ease-out;
+
+}
+
+.link-black {
+  color: #000;
+  border: none;
+}
+
+.link-black:hover, .link-black:focus {
+  color: #c74451;
+  background-color: transparent;
+}
+
+.container {
+  width: 55%;
+  margin: auto;
+}
+
+a:hover, a:focus {
+  background: #c74451;
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1 + p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box h2 {
+  margin: 0;
+  color: #c74451;
+}
+
+/* .post{
+	border-bottom: 1px solid #ccc;
+} */
+.post h3 {
+  margin: 10px 0;
+}
+
+.post h3 a {
+  border: none;
+}
+
+.post p {
+  margin-bottom: 0;
+}
+
+.post-main h3 a {
+  color: inherit;
+}
+
+.post-main h3 a:hover,
+.post-main h3 a:focus {
+  color: #fff;
+}
+
+.post + .post {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.post time,
+.post author {
+  display: block;
+}
+
+.menu {
+  padding: 0;
+  list-style-type: none;
+  /* width: 40%; */
+}
+
+.menu li {
+  border-bottom: 1px solid #fff;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #f4e3e3;
+  color: inherit;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+  color: #fff;
+}
+
+aside h3 {
+  color: #c74451;
+}
+
+.flex-row {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.flex-item {
+  width: 40%;
+
+}
+
+.flex-item--lg {
+  width: 60%;
+}
+
+.footer-link {
+  font-size: 18px;
+  border-bottom: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+footer.container {
+  margin-bottom: 20px;
+}
+
+main {
+  width: 65%;
+}
+
+aside {
+  width: 35%;
+  padding-right: 20px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}

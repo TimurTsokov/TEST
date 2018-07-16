@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>HTML5_les1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
+<!-- main>h1{smashing}+p+(section>h2>a{lorem}^p{lorem12})+section -->
+<header>
+  <a href="" class="link-black">
+	 <h1>Smashing HTML5!</h1>
+	 <p>html5 in the year <s>2022</s> <u>2015</u></p>
+  </a>
+</header>
+<div class="container flex-row flex-reverse">
+  <main class="">
+
+	 <section class="box">
+		<h2>Feature Article</h2>
+		<article class="post post-main">
+		  <h3><a href="#">HTML5 in Beetroot Academy!</a></h3>
+		  <p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an outstanding,
+			 cross-browser <a href="#">HTML5</a> and <a href="#">CSS3</a> website today!</p>
+		</article>
+	 </section>
+
+	 <section class="box">
+		<h2 hidden>Lorem ipsum.</h2>
+		<article class="post">
+		  <h3><a href="#">HTML5 in Beetroot Academy!</a></h3>
+		  <time datetime="">10 oct</time>
+		  <author><a href="#">Lorem ipsum dolor sit.</a></author>
+		  <p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an outstanding,
+			 cross-browser <a href="#">HTML5</a> and <a href="#">CSS3</a> website today!</p>
+		</article>
+		<article class="post">
+		  <h3><a href="#">HTML5 in Beetroot Academy!</a></h3>
+		  <time datetime="">10 oct</time>
+		  <author><a href="#">Lorem ipsum dolor sit.</a></author>
+		  <p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an outstanding,
+			 cross-browser <a href="#">HTML5</a> and <a href="#">CSS3</a> website today!</p>
+		</article>
+	 </section>
+  </main>
+  <aside>
+	 <h3>blogroll</h3>
+	 <ul class="menu">
+		<li><a href="#">HTML5 Doctor</a></li>
+		<li><a href="#">HTML5 Spec (working draft)</a></li>
+		<li><a href="#">Beetroot Academy</a></li>
+		<li><a href="#">W3C</a></li>
+		<li><a href="#">Wordpress</a></li>
+		<li><a href="#">Wikipedia</a></li>
+	 </ul>
+  </aside>
+</div>
+<footer class="container">
+  <div class="flex-row box">
+	 <div class="flex-item">
+		<a href="" class="footer-link">Beetroot Academy</a>
+		<div>
+		  Amazing Magazine
+		</div>
+
+	 </div>
+	 <div class="flex-item flex-item--lg">
+		Beetroot Magazine is a website and blog that offers resources and advice to web developers and web designers.
+	 </div>
+  </div>
+  <div class="text-right">2015 <a href="">Beetroot Academy</a></div>
+</footer>
+
+<h1 id="resultTitle"></h1>
+
+<h2 id="rightTitle"></h2>
+<ul id="right"></ul>
+
+<h2 id="wrongTitle"></h2>
+<ul id="wrong"></ul>
+
+<div id="change"></div>
+
+<script src="script.js"></script>
 </body>
+
 </html>
